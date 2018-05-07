@@ -7,6 +7,11 @@ var patterns = [
   [/.*cambridge*/, 'cambridge', 'vid-average'],
   [/.*(risk)|(threat).*security.*/, 'security threat', 'vid-working'],
   [/.*more.*information.*/, 'more info', 'vid-info'],
+  [/.*terms*/, 'terms', 'vid-average'],
+  [/.*services*/, 'services', 'vid-average'],
+  [/.*privacy*/, 'privacy', 'vid-average'],
+  [/.*lead facebook.*/, 'lead facebook', 'vid-no'],
+  [/.*personal*/, 'personal', 'vid-working'],
   [/test/, 'test','vid-no']
 ]
 
