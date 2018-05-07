@@ -12,8 +12,7 @@ var patterns = [
   [/.*services*/, 'services', 'vid-average'],
   [/.*privacy*/, 'privacy', 'vid-average'],
   [/.*lead facebook.*/, 'lead facebook', 'vid-no'],
-  [/personal/, 'personal', 'vid-working'],
-  [/.*/, 'catchall', 'vid-no']
+  [/personal/, 'personal', 'vid-working']
 ]
 
 // stop, reset, and hide all vids defined in the patterns
