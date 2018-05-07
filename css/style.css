@@ -7,8 +7,7 @@ body {
 }
 
 #input{
-    width: auto;
-    height: auto;
+    width: 100px;
     position: relative;
     top: 50%;
     left: 50%;
@@ -18,11 +17,11 @@ body {
 }
 
 #player{
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 30%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
