@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello World</title>
+     <!-- JQuery script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- Custom Font - Change 'Muli' to the font you want -->
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Custom CSS inside CSS folder -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <form name="questionForm" id="questionForm"  action="#">
+    <input id="userInput" type="text" value="" placeholder="Ask Your Question!">
+    <br>
+    <input id="submitButton" type="submit" value="Submit" >
+  </form> 
+
+  <div id="player">
+
+  <video id="vid-info" width="1024" height="576" style="display:none">
+  <source src="img/info.m4v" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+  
+  <video id="vid-no" width="1024" height="576" style="display:none">
+  <source src="img/uhno.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+
+  <video id="vid-working" width="1024" height="576" style="display:none">
+  <source src="img/workingOnit.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+
+  <video id="vid-average" width="1024" height="576" style="display:none">
+  <source src="img/zuckaverage.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+</div>
+  </body>
+</html>
